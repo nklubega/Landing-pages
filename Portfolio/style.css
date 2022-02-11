@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ubuntu", sans-serif;
+}
+
+body {
+  background: url("man.jpg") no-repeat;
+  background-size: cover;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  position: absolute;
+  top: 5%;
+  left: 60%;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
